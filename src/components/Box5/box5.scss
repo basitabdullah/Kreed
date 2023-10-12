@@ -1,0 +1,32 @@
+.lastBox{
+
+
+   .upperSec{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    h1{
+        font-size: 15px;
+    }
+   } 
+
+
+   .time{
+       width: 100%;
+       margin-top: 20px;
+       display: flex;
+       align-items: center;
+       gap: 10px;
+       border: 1px solid rgb(84, 84, 84);
+       justify-content: space-between;
+       padding: 15px;
+       border-radius: 5px;
+    
+       .speed{
+        color: rgb(37, 85, 181);
+        font-weight: 800;
+       }
+
+
+   }
+}
