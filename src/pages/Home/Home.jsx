@@ -2,7 +2,7 @@ import React from "react";
 import "./home.scss";
 import TopBox from "../../components/TopBox/TopBox";
 import ChartBox from "../../components/ChartBox/ChartBox";
-import { barChartBoxRevenue, chartBoxUploads, chartBoxUser, } from "../../data";
+import { barChartBoxGames, chartBoxUploads, chartBoxUser, } from "../../data";
 import BarchartBox from "../../components/BarChart/BarchartBox";
 import PieChartBox from "../../components/PieChart/PieChartBox";
 import Box5 from "../../components/Box5/Box5";
@@ -14,7 +14,7 @@ const Home = () => {
         <ChartBox {...chartBoxUser} />
       </div>
       <div className="box box2 ">
-        <BarchartBox {...barChartBoxRevenue} />
+        <BarchartBox {...barChartBoxGames} />
       </div>
       <div className="box box3">
         <ChartBox {...chartBoxUploads} />

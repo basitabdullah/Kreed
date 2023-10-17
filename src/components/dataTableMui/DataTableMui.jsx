@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const DataTableMui = (props) => {
 
   const handleDelete=(id)=>{
-console.log(id + "deleted")
+console.log(id + " has been deleted")
   }
 const actionCol = {
   feild : "action",
@@ -14,7 +14,7 @@ const actionCol = {
   width : "200",
   renderCell : (params)=>{
     return <div className="action"  >
-      <Link to={`${params.row.id}`}>
+      <Link to={`/${props.slug}/${params.row.id}`}>
       <img src="/svgs/view.svg" alt="" />
       </Link>
       <div className="delete" onClick={()=>handleDelete(params.row.id)}>

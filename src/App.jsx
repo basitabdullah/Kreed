@@ -14,6 +14,8 @@ import "./styles/global.scss"
 import Cricket from "./pages/Cricket/Cricket";
 import Badminton from "./pages/Badminton/Badminton";
 import Profile from "./pages/Profile/Profile";
+import Posts from "./pages/Posts/Posts";
+import User from "./pages/User/User";
 const App = () => {
   const Layout = () => {
     return (
@@ -48,6 +50,10 @@ const App = () => {
       element : <Users/>
      },
      {
+      path : "/posts",
+      element : <Posts/>
+     },
+     {
       path : "/cricket",
       element : <Cricket/>
      },
@@ -58,6 +64,10 @@ const App = () => {
      {
       path : "/profile",
       element : <Profile/>
+     },
+     {
+      path : "/users/:id",
+      element : <User/>
      },
      ]
     },
