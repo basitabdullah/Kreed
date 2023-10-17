@@ -41,13 +41,13 @@ export const menu = [
       listItems: [
         {
           id: 1,
-          title: "cricket",
+          title: "Cricket",
           url: "/",
           icon: "/svgs/cricket.svg",
         },
         {
           id: 2,
-          title: "batminton",
+          title: "Batminton",
           url: "/",
           icon: "/svgs/tennis.svg",
         },

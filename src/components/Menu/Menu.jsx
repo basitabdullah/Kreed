@@ -10,7 +10,7 @@ const Menu = () => {
           <span className="title">{i.title}</span>
 
           {i.listItems.map((li) => (
-            <Link className="listItem" to="/home" key={li.id}>
+            <Link className="listItem" to={li.url} key={li.id}>
               <img src={li.icon} alt="" />
               <span className="listItemTitle">{li.title}</span>
             </Link>
@@ -21,4 +21,6 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default Menu
+
+

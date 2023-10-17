@@ -2,7 +2,6 @@ import React from "react";
 import Home from "./pages/Home/Home";
 import Users from "./pages/Users/Users";
 import Sports from "./pages/Sports/Sports";
-import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
