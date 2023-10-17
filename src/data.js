@@ -12,7 +12,7 @@ export const menu = [
         {
           id: 2,
           title: "Profile",
-          url: "/users/1",
+          url: "/profile",
           icon: "/svgs/user.svg",
         },
       ],
@@ -42,15 +42,16 @@ export const menu = [
         {
           id: 1,
           title: "Cricket",
-          url: "/",
+          url: "/cricket",
           icon: "/svgs/cricket.svg",
         },
         {
           id: 2,
-          title: "Batminton",
-          url: "/",
+          title: "Badminton",
+          url: "/badminton",
           icon: "/svgs/tennis.svg",
         },
+     
       ],
     },
     {

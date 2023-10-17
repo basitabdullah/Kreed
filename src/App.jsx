@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import Users from "./pages/Users/Users";
-import Sports from "./pages/Sports/Sports";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,6 +11,9 @@ import Footer from "./components/Footer/Footer";
 import Menu from "./components/Menu/Menu";
 
 import "./styles/global.scss"
+import Cricket from "./pages/Cricket/Cricket";
+import Badminton from "./pages/Badminton/Badminton";
+import Profile from "./pages/Profile/Profile";
 const App = () => {
   const Layout = () => {
     return (
@@ -46,8 +48,16 @@ const App = () => {
       element : <Users/>
      },
      {
-      path : "/",
-      element : <Sports/>
+      path : "/cricket",
+      element : <Cricket/>
+     },
+     {
+      path : "/badminton",
+      element : <Badminton/>
+     },
+     {
+      path : "/profile",
+      element : <Profile/>
      },
      ]
     },
