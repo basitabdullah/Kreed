@@ -1,6 +1,8 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import Users from "./pages/Users/Users";
+import { profile } from "./data"
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +18,7 @@ import Badminton from "./pages/Badminton/Badminton";
 import Profile from "./pages/Profile/Profile";
 import Posts from "./pages/Posts/Posts";
 import User from "./pages/User/User";
+import Setting from "./pages/SettingPage/Setting";
 const App = () => {
   const Layout = () => {
     return (
@@ -63,11 +66,15 @@ const App = () => {
      },
      {
       path : "/profile",
-      element : <Profile/>
+      element : <Profile {...profile}/>
      },
      {
       path : "/users/:id",
       element : <User/>
+     },
+     {
+      path : "/setting",
+      element : <Setting/>
      },
      ]
     },

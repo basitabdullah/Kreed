@@ -61,7 +61,7 @@ export const menu = [
         {
           id: 1,
           title: "Settings",
-          url: "/",
+          url: "/setting",
           icon: "/svgs/setting.svg",
         },
      
@@ -480,3 +480,85 @@ export const menu = [
     ],
   };
  
+
+  export const profile = {
+    id: 1,
+    title: "Abdullah Fahim",
+    img: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070",
+    info: {
+      username: "abdul333",
+      fullname: "AbdFaheem",
+      email: "fahimAbd@gmail.com",
+      phone: "4574574",
+      status: "verified",
+    },
+    chart: {
+      dataKeys: [
+        { name: "visits", color: "#8D167F" },
+        { name: "clicks", color: "#8884d8" },
+      ],
+      data: [
+        {
+          name: "Sun",
+          visits: 4000,
+          clicks: 2400,
+        },
+        {
+          name: "Mon",
+          visits: 3000,
+          clicks: 1398,
+        },
+        {
+          name: "Tue",
+          visits: 2000,
+          clicks: 3800,
+        },
+        {
+          name: "Wed",
+          visits: 2780,
+          clicks: 3908,
+        },
+        {
+          name: "Thu",
+          visits: 1890,
+          clicks: 4800,
+        },
+        {
+          name: "Fri",
+          visits: 2390,
+          clicks: 3800,
+        },
+        {
+          name: "Sat",
+          visits: 3490,
+          clicks: 4300,
+        },
+      ],
+    },
+    activities: [
+      {
+        text: "Fahim added 2 posts ",
+        time: "3 day ago",
+      },
+      {
+        text: "Fahim liked 6 posts",
+        time: "1 week ago",
+      },
+      {
+        text: "Fahim updated his profile picture",
+        time: "2 weeks ago",
+      },
+      {
+        text: "Fahim got verified",
+        time: "1 month ago",
+      },
+      {
+        text: "Fahim added a new post.",
+        time: "1 month ago",
+      },
+      {
+        text: "Fahim liked a video from badminton section",
+        time: "2 months ago",
+      },
+    ],
+  };
