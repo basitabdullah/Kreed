@@ -1,4 +1,4 @@
-import "./Users.scss";
+import "./users.scss";
 import { useState } from "react";
 import DataTableMui from "../../components/dataTableMui/DataTableMui"
 import { userRows } from "../../data";
