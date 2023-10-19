@@ -140,7 +140,7 @@ export const menu = [
   ];
   
   export const chartBoxUser = {
-    color: "#D6FFF4",
+    color: "#9927CE",
     icon: "/svgs/users.svg",
     title: "Users",
     number: "452",
@@ -183,31 +183,31 @@ export const menu = [
     chartData: [
       {
         name: "Sun",
-        games: 4000,
+        games: 40,
       },
       {
         name: "Mon",
-        games: 3000,
+        games: 30,
       },
       {
         name: "Tue",
-        games: 2000,
+        games: 20,
       },
       {
         name: "Wed",
-        games: 2780,
+        games: 27,
       },
       {
         name: "Thu",
-        games: 1890,
+        games: 18,
       },
       {
         name: "Fri",
-        games: 2390,
+        games: 23,
       },
       {
         name: "Sat",
-        games: 3490,
+        games: 34,
       },
     ],
   };
@@ -562,3 +562,44 @@ export const menu = [
       },
     ],
   };
+
+  export const userPosts = {
+   posts : [
+    {
+      id : 1,
+      img : "https://images.unsplash.com/photo-1612351641432-20a0f196086c?auto=format&fit=crop&q=80&w=1893&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      id : 2,
+      img : "https://images.unsplash.com/photo-1515311320503-6e3d309537b4?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      id : 3,
+      img : "https://images.unsplash.com/photo-1473081556163-2a17de81fc97?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      id : 4,
+      img : "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&q=80&w=1965&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+
+    {
+      id : 5,
+      img : "https://images.unsplash.com/photo-1517582082532-16a092d47074?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+
+    {
+      id : 6,
+      img : "https://images.unsplash.com/photo-1562351778-a451cb11dc90?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+
+    {
+      id : 7,
+      img : "https://images.unsplash.com/photo-1560759226-14da22a643ef?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      id : 8,
+      img : "https://images.unsplash.com/photo-1567316106249-b2ecaeefdade?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+   
+   ]
+  }

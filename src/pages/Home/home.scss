@@ -15,38 +15,27 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
- 
-
   .box {
-    
     padding: 20px;
     border-radius: 14px;
     border: 1px solid $border;
-  
   }
 
-  .box1{
-    
+  .box1 {
     @include sm {
-     height: 105%;
+      height: 105%;
     }
-  
   }
 
-  .box3{
-    
+  .box3 {
     @include sm {
-     height: 105%;
+      height: 105%;
     }
-  
   }
-
 
   .box4 {
-  
     grid-column: span 1;
     grid-row: span 3;
-   
   }
   .box5 {
     grid-column: span 1;
