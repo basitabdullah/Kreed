@@ -19,11 +19,13 @@ import Profile from "./pages/Profile/Profile";
 import Posts from "./pages/Posts/Posts";
 import User from "./pages/User/User";
 import Setting from "./pages/SettingPage/Setting";
+import SmMenu from "./components/smMenu/SmMenu";
 const App = () => {
   const Layout = () => {
     return (
       <div className="main">
         <Nav />
+        <SmMenu/>
 
         <div className="container">
           <div className="menuContainer">
@@ -76,6 +78,7 @@ const App = () => {
       path : "/setting",
       element : <Setting/>
      },
+    
      ]
     },
   ]);

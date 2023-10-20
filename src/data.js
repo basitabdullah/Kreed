@@ -56,19 +56,6 @@ export const menu = [
     },
     {
       id: 4,
-      title: "maintenance",
-      listItems: [
-        {
-          id: 1,
-          title: "Settings",
-          url: "/setting",
-          icon: "/svgs/setting.svg",
-        },
-     
-      ],
-    },
-    {
-      id: 5,
       title: "Charts",
       listItems: [
         {
@@ -85,6 +72,19 @@ export const menu = [
         },
       ],
     },
+    // {
+    //   id: 5,
+    //   title: "maintenance",
+    //   listItems: [
+    //     {
+    //       id: 1,
+    //       title: "Settings",
+    //       url: "/setting",
+    //       icon: "/svgs/setting.svg",
+    //     },
+     
+    //   ],
+    // },
   ];
   
   export const users = [
