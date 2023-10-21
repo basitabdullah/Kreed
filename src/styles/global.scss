@@ -1,45 +1,47 @@
 @import "./variables.scss";
 @import "./responsiveness.scss";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-.main{
-    font-family: 'Roboto', sans-serif;
-    background-color: $background;
-    color: $text;
+.main {
+  font-family: "Roboto", sans-serif;
+  background-color: $background;
+  color: $text;
 }
 
-.container{
+.container {
+  display: flex;
+  @include sm {
+    justify-content: center;
+  }
+}
+
+.menuContainer {
+  width: 250px;
+  padding: 5px 20px;
+  border-right: 2px solid $border;
+  @include lg {
+    width: max-content;
+  }
+  @include sm {
+    display: none;
+    border: none;
+  }
+}
+.contentContainer {
+  padding: 5px 20px;
+  width: 75%;
+
+  @include xsm {
     display: flex;
-    @include sm {
-       justify-content:center;
-      }
-}
-
-.menuContainer{
-    width: 250px;
-    padding: 5px 20px;
-    border-right: 2px solid $border;
-    @include lg {
-        width: max-content;
-    }
-    @include sm {
-      display: none;
-       border: none;
-    }
-
-
-}
-.contentContainer{
-    padding: 5px 20px;
-    width: 75%;
+    justify-content: center;
+  }
 }

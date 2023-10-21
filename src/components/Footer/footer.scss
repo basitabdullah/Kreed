@@ -1,8 +1,14 @@
+@import "../../styles/responsiveness.scss";
+
 .footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+    @include xsm {
+        flex-direction: column;
+        gap: 20px;
+      }
 
     span{
         &:first-child{
@@ -10,12 +16,16 @@
          letter-spacing: 3px;
          font-size: 18px;
          font-weight: 300;
+         @include xsm {
+          display: none;
+          }
 
         }
 
         &:last-child{
             font-size: 14px;
             font-weight: 100;
+            
            }
     }
 

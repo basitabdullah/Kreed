@@ -1,3 +1,6 @@
+@import "../../styles/responsiveness.scss";
+
+
 .lastBox{
 
 
@@ -21,6 +24,10 @@
        justify-content: space-between;
        padding: 15px;
        border-radius: 5px;
+
+       @include xsm {
+       border: none;
+    }
     
        .speed{
         color: rgb(37, 85, 181);
